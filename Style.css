@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 317px;
+    font-family: Trebuchet MS;
+    border-radius: 10px;
+    
+}
+.name{
+    text-align: center;
+    font-family: Trebuchet MS ;
+    font-style: normal;
+    
+}
+.name-name{
+    font-weight: 700;
+    margin-bottom: 6px;
+    font-size: 25px;
+}
+.name-role{
+    color:#F47D27;
+    font-size:12.8px;
+    margin-bottom: 6px;
+}
+.name-link{
+    font-size: 10.24px;
+}
+.details{
+    width: 247px;
+    margin: 0 auto;
+}
+.details >p{
+    font-size: 10.24px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+.details > h3 {
+    font-size: 16px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    margin-top:17px;
+    margin-bottom: 25px;
+    
+}
+.button-icon{
+    width:12.8px ;
+    margin-right: 9.33px;
+    
+
+}
+.linkedin-button, .email-button{
+    width: 115px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+}
+
+.linkedin-button{
+    color: #FFFFFF;
+    background: #297FE5;
+}
+.intersts-heading{
+    margin-top: 27px;
+}
+.footer{
+    padding:0 70px ;
+    display: flex;
+    justify-content: space-around;
+    height: 64px;
+    background: #D5D4D8;
+    align-items: center;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.middle{
+    background: #F5F5F5;
+    padding-bottom:31px ;
+    margin-top:-5px;
+}
+body{
+    margin-top:3px;
+}
